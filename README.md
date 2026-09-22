@@ -1,5 +1,6 @@
 # E-commerce-Data-Platform-Build
 End-to-end AWS Data Lakehouse for e-commerce analytics, built with Glue, Spark, Iceberg, Redshift, and SageMaker. Processes 3M+ orders and supports BI analytics and real-time product recommendations.
+
 Built an end-to-end **AWS Data Lakehouse** for e-commerce analytics using the **Medallion Architecture (Bronze/Silver/Gold)**, processing over **3 million order records**.
 
 The Bronze layer uses **AWS Glue, Apache Spark, Amazon S3, and Apache Iceberg** to support incremental ingestion, schema evolution, and reliable ETL processing. The Silver layer performs data cleansing, deduplication, NULL handling, and multi-table joins to create reusable **fact and dimension tables**.
